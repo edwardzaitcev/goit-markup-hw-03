@@ -125,7 +125,10 @@ ol {
   letter-spacing: 0.06em;
   color: #ffffff;
 }
-
+.text {
+  padding-top: 98px;
+  padding-bottom: 98px;
+}
 .text-title {
   font-weight: 700;
   font-size: 14px;
