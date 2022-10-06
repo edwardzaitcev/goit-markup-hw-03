@@ -1,13 +1,3 @@
-/*
-0)
-body class="site-body"
-header class="header"
-<a href="./index.html" class="header-logo link"><span class="span-logo">Web</span>Studio</a>
-ul class="heder-list"
-li class="header-item
-link
-a class="header-link link"*/
-
 .site-body {
   font-family: "Roboto", sans-serif;
   background: #ffffff;
@@ -21,6 +11,37 @@ a class="header-link link"*/
 .link:hover {
   color: #2196f3;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+button {
+  cursor: pointer;
+}
+address {
+  font-style: normal;
+}
+img {
+  display: block;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  padding: 0 15px;
+  outline: 2px solid tomato;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -78,7 +99,7 @@ a class="header-link link"*/
   color: #757575;
 }
 /*Content*/
-.content {
+.hero-content {
   background: #2f303a;
 }
 .content-title {
