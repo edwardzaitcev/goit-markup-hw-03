@@ -2,12 +2,7 @@
   font-family: "Roboto", sans-serif;
   background: #ffffff;
 }
-.list {
-  list-style: none;
-}
-.link {
-  text-decoration: none;
-}
+
 .link:hover {
   color: #2196f3;
 }
@@ -39,12 +34,73 @@ ol {
 .img {
   display: block;
 }
+
+/*header*/
+.header {
+  background: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
 .container {
   margin-left: auto;
   margin-right: auto;
   width: 1170px;
   padding: 0 15px;
   outline: 2px solid tomato;
+}
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.link {
+  text-decoration: none;
+}
+.span-logo {
+  color: #2196f3;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+}
+.list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  display: flex;
+  align-items: center;
+}
+.header-item .current {
+  color: #2196f3;
+}
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 
 .visually-hidden {
@@ -61,53 +117,18 @@ ol {
 }
 
 /*header*/
-.header {
-  background: #ffffff;
-}
+
 .content-btn {
   cursor: pointer;
+  padding: 10px 32px;
+  display: inline-block;
 }
 
-.header-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #000000;
-}
-.span-logo {
-  color: #2196f3;
-}
-.header-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #212121;
-}
-.header-item .current {
-  color: #2196f3;
-}
-
-.header-mail {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
-.header-tel {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
 /*Content*/
 .hero-content {
   background: #2f303a;
 }
+
 .content-title {
   font-weight: 900;
   font-size: 44px;
