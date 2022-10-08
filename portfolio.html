@@ -17,20 +17,19 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
     </head>
-    <body>
-      <main>
-       <header class="header">
+    <body class="site-body">
+    <header class="header">
       <div class="container nav">
         <nav class="header-nav">
-          <a href="./index.html" class="header-logo link"><span class="logo link">Web</span>Studio</a>
-          <ul class="header-nav-list list">
+          <a href="./index.html" class="header-logo link"><span class="span-logo">Web</span>Studio</a>
+          <ul class="header-nav list">
             <li class="header-nav-item">
-              <a class="header-nav-link link" href="./index.html"
+              <a class="header-nav-link link current" href="./index.html"
                 >Студія</a
               >
             </li>
             <li class="header-nav-item">
-              <a class="header-nav-link link current" href="./portfolio.html"
+              <a class="header-nav-link link" href="./portfolio.html"
                 >Портфоліо</a
               >
             </li>
@@ -41,33 +40,34 @@
         </nav>
         <ul class="header-contact-list list">
           <li class="header-contact-item">
-            <a class="header-contact-link link" href="mailto:info@devstudio.com"
+            <a class="header-contact-mail link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li class="header-contact-item">
-            <a class="header-contact-link link" href="tel:+380961111111">
+            <a class="header-contact-tel link" href="tel:+380961111111">
               +38 044 111 11 11</a
             >
           </li>
         </ul>
       </div>
     </header>
-        <section>
+    <main class="main">
+        <section class="section-portfolio">
           <div class="container">
-          <h1 class="visually-hidden">Портфоліо</h1>
-          <ul class="list">
-            <li><button type="button" class="main-btn link">Усі</button></li>
-            <li><button type="button" class="main-btn link">Веб-сайти</button></li>
-            <li><button type="button" class="main-btn link">Додатки</button></li>
-            <li><button type="button" class="main-btn link">Дизайн</button></li>
-            <li><button type="button" class="main-btn link">Маркетинг</button></li>
+          <h1 hidden>Портфоліо</h1>
+          <ul class="portfolio-main-btn list">
+            <li><button type="button" class="portfolio-btn link">Усі</button></li>
+            <li><button type="button" class="portfolio-btn link">Веб-сайти</button></li>
+            <li><button type="button" class="portfolio-btn link">Додатки</button></li>
+            <li><button type="button" class="portfolio-btn link">Дизайн</button></li>
+            <li><button type="button" class="portfolio-btn link">Маркетинг</button></li>
           </ul>
           </div>
         </section>
         <section>
           <div class="container">
-          <ul class="list">
+          <ul class="container-list list">
             <li>
               <img
                 src="./images/portfolio-img/laptop.jpg"
@@ -76,7 +76,7 @@
                 height="294"
               />
               <h2 class="portfol-title">Технокряк</h2>
-              <p class="portfol-paragraf" >Веб-сайт</p>
+              <p class="portfol-paragraf">Веб-сайт</p>
             </li>
             <li>
               <img src="./images/portfolio-img/basketball.jpg" alt="poster" />
