@@ -212,17 +212,33 @@ img {
   padding-bottom: 60px;
 }
 .footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 .logo {
+  color: #2196f3;
 }
 .footer-contact {
+  font-style: normal;
+  margin-top: 20px;
 }
 .footer-contact-list {
+  display: inline;
 }
 .footer-contact-gps {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 .footer-contact-mail {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03;
 }
 .footer-contact-tel {
 }
