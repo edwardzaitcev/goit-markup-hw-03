@@ -115,6 +115,7 @@ img {
   text-transform: uppercase;
   color: #ffffff;
   width: 696px;
+  margin-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -134,8 +135,8 @@ img {
   border-radius: 4px;
 }
 .features {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 /* hidden .benefits {}*/
 .features-title {
@@ -145,14 +146,20 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .features-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
+.features-item {
+  width: 270px;
+}
+
 .different {
   padding-bottom: 94px;
 }
@@ -196,6 +203,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 10px;
 }
 .team-profession {
   line-height: 1.19;
@@ -239,7 +247,8 @@ img {
 .footer-contact-mail {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-contact-tel {
   font-size: 14px;
@@ -247,17 +256,21 @@ img {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+.footer-contact-item {
+  margin-bottom: 8px;
+}
 
 /*portfol*/
 
 .section-portfolio {
-  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .portfolio-main-btn {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  padding: 50px;
+  margin-bottom: 50px;
 }
 .portfolio-btn {
   font-family: inherit;
@@ -273,10 +286,7 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-/* .container-list {
- 
 
-} */
 .card-list {
   box-sizing: border-box;
   background-color: #ffffff;
@@ -302,10 +312,10 @@ img {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
-
 .container-list {
-  outline: 1px solid tomato;
   display: flex;
   flex-wrap: wrap;
 }
