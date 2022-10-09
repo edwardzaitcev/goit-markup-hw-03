@@ -303,3 +303,12 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+.container-list {
+  outline: 1px solid tomato;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-list > .card-list {
+}
