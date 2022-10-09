@@ -253,9 +253,13 @@ img {
 .section-portfolio {
   margin-top: 94px;
 }
-/* .portfolio-main-btn {
-} */
 .portfolio-main-btn {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.portfolio-btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -263,12 +267,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  background-color: #2196f3;
   border: none;
-  /* padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-  padding-left: 10px; */
 }
 /* .container-list {
  
@@ -299,5 +298,4 @@ img {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  background-color: aqua;
 }
