@@ -46,6 +46,14 @@ img {
   margin: 0 auto;
   outline: 2px solid tomato;
 }
+.contact-nav {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid tomato;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -269,14 +277,18 @@ img {
   padding-bottom: 94px;
 }
 .portfolio-main-btn {
-  display: flex;
-  justify-content: center;
   margin-bottom: 50px;
-  gap: 8px;
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}
+.conteiner-portfolio {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 .portfolio-filter {
-  padding-left: 6px;
-  padding-top: 22px;
 }
 .portfolio-btn {
   font-family: inherit;
@@ -287,10 +299,16 @@ img {
   letter-spacing: 0.03em;
   color: #212121;
   border: none;
-
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  background: #f5f4fa;
   border-radius: 4px;
+  box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%),
+    0px 2px 2px rgb(0 0 0 / 12%);
+  border: none;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 .hero-btn:focus. {
   color: #212121;
@@ -313,10 +331,13 @@ img {
 /*.img {
 }*/
 .portfolio-text {
-  padding-left: 20px;
-  padding-top: 24px;
-  border: 1px solid #eeeeee;
-  border-top: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 .portfolio-title {
   font-weight: 700;
@@ -324,6 +345,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+  margin-bottom: 4px;
 }
 .portfolio-paragrapf {
   line-height: 1.88;
@@ -334,13 +356,11 @@ img {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  justify-content: center;
 }
-.container-list {
+.card-list {
   display: flex;
   flex-wrap: wrap;
-}
-
-.container-list > .card-list {
+  flex-basis: calc(100% / 3);
+  margin-bottom: 50px;
 }
