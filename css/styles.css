@@ -153,8 +153,6 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 .features-item {
   width: 270px;
@@ -258,6 +256,10 @@ img {
 }
 .footer-contact-item {
   margin-bottom: 8px;
+}
+
+.footer-contact-item:last-child {
+  margin-bottom: 0px;
 }
 
 /*portfol*/
